@@ -2,7 +2,7 @@
 // "username": "Bret",
 // "email": "Sincere@april.biz",
 
-$(document).ready(() => {
+$(document).ready(function () {
     $('#username, #email').removeClass('invalid-input');
 
     let activeform_login = {
@@ -21,13 +21,11 @@ $(document).ready(() => {
         } else {
             $('#Valid').css('display', 'flex');
             $('#username, #email').addClass('invalid-input');
-          
-
             $('#email').attr('placeholder', 'Invalid email').css({
                 'color': 'red',
                 'background-color': 'rgb(243, 166, 131)'
             });
- 
+
         }
 
     });
