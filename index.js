@@ -21,7 +21,7 @@ $(document).ready(() => {
         } else {
             $('#Valid').css('display', 'flex');
             $('#username, #email').addClass('invalid-input');
-            // $('#email').css('background-color', 'rgb(243, 166, 131)');
+          
 
             $('#email').attr('placeholder', 'Invalid email').css({
                 'color': 'red',
