@@ -19,11 +19,16 @@ $(document).ready(() => {
         if (activeform_login.username !== '' && activeform_login.email !== '') {
             getdatalogin()
         } else {
-
+            $('#Valid').css('display', 'flex');
             $('#username, #email').addClass('invalid-input');
-            alert('Please enter a valid username');
-        }
+            // $('#email').css('background-color', 'rgb(243, 166, 131)');
 
+            $('#email').attr('placeholder', 'Invalid email').css({
+                'color': 'red',
+                'background-color': 'rgb(243, 166, 131)'
+            });
+ 
+        }
 
     });
 
@@ -53,7 +58,9 @@ $(document).ready(() => {
 
 
                     if (dataUsername.email === activeform_login.email) {
-
+                        window.location.href = './componect/home.html';
+                        // window.location.href = 'home.html';
+                        // history.pushState('/componect/home');
 
 
                     } else {
