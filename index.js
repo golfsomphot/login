@@ -1,8 +1,9 @@
 
-// "username": "Bret",
-// "email": "Sincere@april.biz",
-{/* <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> */}
+
+
 $(document).ready(function () {
+    // "username": "Bret",
+    // "email": "Sincere@april.biz",
     $('#username, #email').removeClass('invalid-input');
 
     let activeform_login = {
