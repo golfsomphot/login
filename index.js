@@ -1,15 +1,21 @@
-
+ 
 
 
 $(document).ready(function () {
-    // "username": "Bret",
-    // "email": "Sincere@april.biz",
+  
+
+
     $('#username, #email').removeClass('invalid-input');
 
     let activeform_login = {
         username: '',
         email: '',
     }
+
+
+
+       // "username": "Bret",
+    // "email": "Sincere@april.biz",
     $('#btn_submit').click(() => {
         event.preventDefault();
 

@@ -4,41 +4,7 @@
     margin: 0;
     padding: 0;
 }
-
-
-
-nav {
-    position: sticky;
-    top: 5px;
-    background-color: #fff;
-    justify-content: center;
-
-}
-
-nav,
-ul {
-    display: flex;
-    align-items: center;
-
-}
-
-li {
-    text-align: center;
-    width: 100px;
-    margin: 0 1px;
-    cursor: pointer;
-    list-style: none;
-    border-radius: 2px;
-    color: #fff;
-    background-color: hsl(234, 29%, 20%);
-}
-
-li:hover {
-    background-color: rgb(52, 73, 94);
-    color: #fff;
-    transform: scale(1.5);
-    border-radius: 5px;
-}
+ 
 
 #logout:hover {
     background-color: red;
